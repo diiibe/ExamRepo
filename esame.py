@@ -117,7 +117,7 @@ class CSVTimeSeriesFile() :
         return valuesf
 
 
-time_series_file = CSVTimeSeriesFile(name = 'data.csv')
+time_series_file = CSVTimeSeriesFile(name = 'name')
 time_series = time_series_file.get_data()
 #print('Dati:', time_series)
 
